@@ -57,7 +57,7 @@ We already know how to see xrefs, we will now double click the reference to `Edi
 
 There seems to be two functions `EditorUI::createMoveMenu(void)` and `EditorUI::setupCreateMenu(void)`.
 
-I think it's pretty obvious which one we choose, however if you are not sure, count how many calls are done to `EditorUI::setupCreateMenu(void)`! It matches the number of tabs there are.
+I think it's pretty obvious which one we choose, however if you are not sure, count how many calls are done from `EditorUI::setupCreateMenu(void)` to our function! It matches the number of tabs there are.
 
 # 1.3 The reversing of setupCreateMenu
 > *Reminder that we are still in the android binary*
